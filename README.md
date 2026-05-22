@@ -11,8 +11,7 @@
 ## 如何使用
 
 ### 前置准备
-1. 申请 [Semantic Scholar API Key](https://www.semanticscholar.org/product/api#api-key) (免费)
-2. 准备一个邮箱用于 [Unpaywall](https://unpaywall.com/products/api) API 调用 (免费)
+申请 [Semantic Scholar API Key](https://www.semanticscholar.org/product/api#api-key) (免费)
 
 ### 导入 Skill
 1. 下载本仓库中的 `skill.md` 文件。
@@ -22,7 +21,7 @@
 
 ### 运行
 向 Claude 发送指令，例如：
-> "请帮我检索关于'大语言模型在医疗诊断中的应用'的最新文献（近90天）。"
+> "请严格按照 skill.md 中的流程执行文献检索任务，帮我检索近90天内关于'大语言模型在医疗诊断中的应用'的最新文献。"
 
 Claude 会自动引导你输入 API Key，并按步骤确认关键词、检索和下载。
 
